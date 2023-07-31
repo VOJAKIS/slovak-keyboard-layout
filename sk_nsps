@@ -2,7 +2,7 @@ default partial alphanumeric_keys
 # Keyboard without numpad
 xkb_symbols "basic" {
 
-    // This layout copies the slovak language keyboard layout printed on
+    // This layout copies the Slovak language keyboard layout and is
     // designed to satisfy me... also Unix, Windows and Mac users.
     // @2023 valastan1@gmail.com
 
