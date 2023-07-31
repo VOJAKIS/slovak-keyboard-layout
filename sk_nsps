@@ -1,5 +1,4 @@
 default partial alphanumeric_keys
-# Keyboard without numpad
 xkb_symbols "basic" {
 
     // This layout copies the Slovak language keyboard layout and is
