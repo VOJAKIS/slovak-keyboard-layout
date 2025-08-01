@@ -3,7 +3,7 @@ xkb_symbols "basic" {
 
     // This layout copies the Slovak language keyboard layout and is
     // designed to satisfy me... also Unix, Windows and Mac users.
-    // @2023 valastan1@gmail.com
+    // @2025 valastan1@gmail.com
 
     include "latin"
     name[Group1] = "Slovak (Na Slovensku po Slovensky)";
@@ -33,8 +33,8 @@ xkb_symbols "basic" {
     key <AD09>  { [         o,          O,     NoSymbol,     NoSymbol ] };
     key <AD10>  { [         p,          P,   apostrophe,   apostrophe ] };
 
-    key <AD11>  { [    uacute,      slash,  bracketleft,     division ] };
-    key <AD12>  { [adiaeresis,  parenleft, bracketright,     multiply ] };
+    key <AD11>  { [    uacute,      slash,		 division,  bracketleft ] };
+    key <AD12>  { [adiaeresis,  parenleft, 		 multiply, bracketright ] };
 
     key <AC01>  { [         a,          A,   asciitilde,     NoSymbol ] };
     key <AC02>  { [         s,          S,      dstroke,     NoSymbol ] };
@@ -47,9 +47,10 @@ xkb_symbols "basic" {
     key <AC09>  { [         l,          L,      Lstroke,     NoSymbol ] };
 
     key <AC10>  { [ocircumflex,   quotedbl,      dollar,     NoSymbol ] };
-    key <AC11>  { [   section,     exclam,   apostrophe,       ssharp ] };
+    key <AC11>  { [   section,     exclam,       ssharp,   apostrophe ] };
+    key <BKSL>  { [    ncaron, parenright,     currency, 		backslash ] };
+		
     key <AC12>  { [  EuroSign, dead_diaeresis, NoSymbol,     NoSymbol ] };
-    key <BKSL>  { [    ncaron, parenright,    backslash,          bar ] };
 
     key <LSGT>  { [ backslash,        bar,        slash,     NoSymbol ] };
     key <AB01>  { [         y,          Y,       degree,     NoSymbol ] };
