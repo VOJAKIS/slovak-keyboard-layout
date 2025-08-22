@@ -8,7 +8,7 @@ xkb_symbols "basic" {
     // @2025 valastan1@gmail.com
 
     include "latin"
-    name[Group1] = "Slovak (Na Slovensku po Slovensky)";
+    name[Group1] = "Slovak (Na Slovensku po slovensky)";
 
     key <TLDE>  { [ semicolon, dead_abovering,    grave,   asciitilde ] };
     key <AE01>  { [      plus,          1,   asciitilde,   dead_tilde ] };
