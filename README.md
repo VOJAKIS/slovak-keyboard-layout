@@ -1,8 +1,8 @@
-# Slovak Keyboard Layout
+# Slovak keyboard layout
 
 A Slovak keyboard layout for Linux using X11.
 
-Traditional quote: na Slovensku po Slovensky
+Traditional quote: na Slovensku po slovensky
 
 <br>
 
@@ -10,7 +10,7 @@ Traditional quote: na Slovensku po Slovensky
 
 ### Do this step only once
 
-0. Add this entry to the configuration in `/usr/share/X11/xkb/rules/evdev.xml`
+0. Add this entry to the <layouts></layouts> configuration in `/usr/share/X11/xkb/rules/evdev.xml`
 
    ```
    <layout>
